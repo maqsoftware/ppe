@@ -1468,8 +1468,8 @@ body,
 .header .v-align-middle > .button:not(.nav-icon):hover,
 .header .dropdown > .button:not(.nav-icon):hover,
 .header .dropdown > .button.active:not(.nav-icon){
-	background-color: #6773f1;
-	border-color: #6773f1;
+	background-color: #ba141a;
+	border-color: #ba141a;
 	color: #fff;
 }
 
