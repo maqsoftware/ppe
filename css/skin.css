@@ -120,78 +120,78 @@ h6{
 /* Widget Titles */
 .footer .widget-title, 
 .footer .widget-title a{
-	font-size: 1.4rem;
+	font-size: 1rem;
 	font-weight: 400;
 	text-transform: none;
-	color: #edf2f7;
+	color: #515151;
 }
 .footer-light .widget-title, 
 .footer-light .widget-title a{
-	color: #212325;
+	color: #212121;
 }
 .sidebar .widget-title, 
 .sidebar .widget-title a{
-	font-size: 1.4rem;
+	font-size: 1rem;
 	font-weight: 400;
 	text-transform: none;
-	color: #212325;
+	color: #212121;
 }
 .side-navigation-wrapper .widget-title, 
 .side-navigation-wrapper .widget-title a{
-	font-size: 1.4rem;
-	color: #212325;
+	font-size: 1rem;
+	color: #212121;
 }
 .overlay-navigation-wrapper .widget-title, 
 .overlay-navigation-wrapper .widget-title a{
-	font-size: 1.4rem;
-	color: #999;
+	font-size: 1rem;
+	color: #515151;
 }
 
 /* Title Classes */
 .title-xlarge{
-	font-size: 7.749rem;
-	line-height: 1.2;
+	font-size: 4.5rem;
+	line-height: 1.3;
 }
 .title-large{
-	font-size: 5.826rem;
-	line-height: 1.2;
+	font-size: 3.75rem;
+	line-height: 1.3;
 }
 .title-medium{
-	font-size: 2.476rem;
-	line-height: 1.2;
+	font-size: 3rem;
+	line-height: 1.3;
 }
 .title-small{
-	font-size: 1.4rem;
-	line-height: 1.2;
+	font-size: 2rem;
+	line-height: 1.5;
 }
 
 /* Lead */
 .lead,
 blockquote.large{
-	font-size: 1.995rem;
+	font-size: 1.5rem;
 	font-weight: 400;
 }
 
 /* Text Classes */
 .text-xlarge{
-	font-size: 2.016rem;
+	font-size: 1.75rem;
 }
 .text-large{
-	font-size: 1.68rem;
+	font-size: 1.5rem;
 }
 .text-medium{
-	font-size: 1.4rem;
+	font-size: 1.25rem;
 }
 .text-small{
-	font-size: 1.167rem;
+	font-size: 1.125rem;
 }
 
 /* Countdown */
 .countdown .unit{
-	font-size: 3.294rem;
+	font-size: 2rem;
 }
 .countdown-2 .unit{
-	font-size: 5.826rem;
+	font-size: 3rem;
 }
 
 /* Special Text Classes */
@@ -236,7 +236,7 @@ ol, ul{
 a, 
 p a,
 .box a:not(.button){
-	color: #6773f1;
+	color: #ba141a;
 }
 .sidebar .widget :not(.widget-title) a:not(.button),
 .shop .product-summary :not(.widget-title) a:not(.button){
@@ -274,7 +274,7 @@ p a,
 .header .header-inner-top-dark a:hover,
 .dropdown-list:not(.custom-content) li a.active,
 .dropdown-list:not(.custom-content) li a:hover{
-	color: #6773f1;
+	color: #ba141a;
 }
 a[class*="icon-"]:hover{
 	text-decoration: none;
@@ -285,37 +285,37 @@ a[class*="icon-"]:hover{
 
 @media only screen and (max-width: 768px){
 	body{
-		font-size: 1.4rem;
+		font-size: 1.25rem;
 	}
 	h1 {
-		font-size: 3.381rem;
+		font-size: 3rem;
 	}
 	h2{
-		font-size: 2.542rem;
+		font-size: 2rem;
 	}
 	h3 {
-		font-size: 1.911rem;
+		font-size: 1.75rem;
 	}
 	h4 {
-		font-size: 1.596rem;
+		font-size: 1.5rem;
 	}
 	h5{
-		font-size: 1.437rem;
+		font-size: 1.25rem;
 	}
 	h6{
-		font-size: 1.080rem;
+		font-size: 1.125rem;
 	}
 	.title-xlarge{
-		font-size: 4.694rem;
+		font-size: 4.5rem;
 	}
 	.title-large{
-		font-size: 3.529rem;
+		font-size: 3.75rem;
 	}
 	.title-medium{
-		font-size: 2.123rem;
+		font-size: 3rem;
 	}
 	.title-small{
-		font-size: 1.2rem;
+		font-size: 2rem;
 	}
 	.tms-caption.title-xlarge,
 	.tmp-content .title-xlarge{
@@ -326,15 +326,15 @@ a[class*="icon-"]:hover{
 	/* Lead */
 	.lead,
 	blockquote.large{
-		font-size: 1.7rem;
+		font-size: 3rem;
 	}
 
 	/* Countdown */
 	.countdown .unit{
-		font-size: 2.542rem;
+		font-size: 2rem;
 	}
 	.countdown-2 .unit{
-		font-size: 3.529rem;
+		font-size: 3rem;
 	}
 
 	/* Special Text Classes */
@@ -344,10 +344,10 @@ a[class*="icon-"]:hover{
 
 	/* Helpers */
 	.fullscreen-section .background-on-mobile{
-		background: #f4f4f4;
+		background: #f4f4f7;
 	}
 	.fullscreen-section .background-on-mobile *{
-		color: #666 !important;
+		color: #515151 !important;
 	}
 	.fullscreen-section .background-on-mobile h1,
 	.fullscreen-section .background-on-mobile h2,
@@ -355,7 +355,7 @@ a[class*="icon-"]:hover{
 	.fullscreen-section .background-on-mobile h4,
 	.fullscreen-section .background-on-mobile h5,
 	.fullscreen-section .background-on-mobile h6{
-		color: #000 !important;
+		color: #212121 !important;
 	}
 }
 
