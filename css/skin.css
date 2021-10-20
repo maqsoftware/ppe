@@ -43,12 +43,12 @@ Copyright: ThemeMountain
 */
 
 body{
-	font-family: 'Hind Madurai', 'Helvetica Neue', sans-serif;
+	font-family: 'Roboto', 'Helvetica Neue', sans-serif;
 	letter-spacing: 0;
 	font-weight: 400;
 	font-size: 1.5rem;
 	line-height: 1.8;
-	color: #6d7485;
+	color: #515151;
 }
 h1, 
 h2, 
@@ -74,7 +74,7 @@ textarea,
 .grid-filter-menu a,
 .dropdown a,
 [class*="stats-"] .counter{
-		font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+		font-family: 'Inter', 'Helvetica Neue', sans-serif;
 }
 
 /* Titles */
