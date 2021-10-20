@@ -46,8 +46,8 @@ body{
 	font-family: 'Roboto', 'Helvetica Neue', sans-serif;
 	letter-spacing: 0;
 	font-weight: 400;
-	font-size: 1.5rem;
-	line-height: 1.8;
+	font-size: 1.25rem;
+	line-height: 1.5;
 	color: #515151;
 }
 h1, 
@@ -84,10 +84,10 @@ h3,
 h4,
 h5,
 h6{
-	line-height: 1.2;
-	font-weight: 300;
+	line-height: 1.5;
+	font-weight: 700;
 	text-transform: none;
-	color: #212325;
+	color: #212121;
 }
 h1 a:hover,
 h2 a:hover,
@@ -95,25 +95,25 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover{
-	color: #6773f1;
+	color: #ba141a;
 }
 h1 {
-	font-size: 4.381rem;
+	font-size: 3rem;
 }
 h2{
-	font-size: 3.294rem;
+	font-size: 2rem;
 }
 h3 {
-	font-size: 2.476rem;
+	font-size: 1.75rem;
 }
 h4 {
-	font-size: 1.862rem;
+	font-size: 1.5rem;
 }
 h5{
-	font-size: 1.4rem;
+	font-size: 1.25rem;
 }
 h6{
-	font-size: 1.2rem;
+	font-size: 1.125rem;
 	font-weight: 700;
 }
 
