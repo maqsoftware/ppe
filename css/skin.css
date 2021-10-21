@@ -710,26 +710,26 @@ body,
 
 /* theme */
 .bkg-theme{
-	background-color: #6773f1;
-	border-color: #6773f1;
+	background-color: #BA141A;
+	border-color: #BA141A;
 }
 .bkg-hover-theme:hover,
 .bkg-focus-theme:focus{ /* #MOD */
-	background-color: #717dfb;
-	border-color: #717dfb;
+	background-color: #BA141A;
+	border-color: #BA141A;
 }
 .border-theme{
-	border-color: #6773f1;
+	border-color: #BA141A;
 }
 .border-hover-theme:hover,
 .border-focus-theme:focus{ /* #MOD */
-	border-color: #717dfb;
+	border-color: #BA141A;
 }
 .color-theme{
-	color: #6773f1;
+	color: #BA141A;
 }
 .color-hover-theme:hover{
-	color: #717dfb;
+	color: #BA141A;
 }
 
 /* Gradients */
