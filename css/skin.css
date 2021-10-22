@@ -1462,8 +1462,8 @@ body,
 .header .v-align-middle > .button:not(.nav-icon),
 .header .dropdown > .button:not(.nav-icon){
 	background: transparent;
-	border-color: #fff;
-	color: #fff;
+	border-color: black;
+	color: black;
 }
 .header .v-align-middle > .button:not(.nav-icon):hover,
 .header .dropdown > .button:not(.nav-icon):hover,
