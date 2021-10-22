@@ -2537,6 +2537,10 @@ body,
 	background-image: url(../images/generic/disc-pattern.png);
 	background-repeat: no-repeat;
 }
+.fullscreen-pattern-6{
+	background-image: url(../images/assets/Banner-swoosh.png);
+	background-repeat: no-repeat;
+}
 
 /*------------------------------------------------------------------
 [15. About Pages]
