@@ -399,7 +399,11 @@ body,
 			transition: 350ms ease-in-out;
 }
 
-/* grey ulatrlight */
+/* grey ultralight */
+.bkg-white-ultralight{
+	background-color: #ffffff;
+	border-color: #4e4e4d;
+}
 .bkg-grey-ultralight{
 	background-color: #f5f7f9;
 	border-color: #f5f7f9;
@@ -425,8 +429,8 @@ body,
 
 /* grey light*/
 .bkg-grey-light{
-	background-color: #ecedf2;
-	border-color: #ecedf2;
+	background-color: #ffffff;
+	border-color: #4e4e4d;
 }
 .bkg-hover-grey-light:hover,
 .bkg-focus-grey-light:focus{
