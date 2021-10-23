@@ -430,7 +430,7 @@ body,
 /* grey light*/
 .bkg-grey-light{
 	background-color: #ffffff;
-	border-color: #4e4e4d;
+	border-color: #000000;
 }
 .bkg-hover-grey-light:hover,
 .bkg-focus-grey-light:focus{
