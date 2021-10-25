@@ -1089,9 +1089,9 @@ body,
 
 /* Transparent Header Show Light Logo */
 .header-transparent .logo a:first-child{
-	opacity: 0;
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
 .header-transparent .logo a + a{
 	display: block !important;
@@ -1108,7 +1108,7 @@ body,
 }
 .header-background .logo a + a{
 	display: block !important;
-	opacity: 0;
+	opacity: 1;
 	visibility: hidden;
 	-webkit-transform: scale(1);
 	transform: scale(1);
