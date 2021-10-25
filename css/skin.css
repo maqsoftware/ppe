@@ -1177,19 +1177,19 @@ body,
 /* Header & Header Sub Initial & Active Nav Colors */
 .header .navigation > ul > li > a,
 .header-sub .navigation > ul > li > a{
-	color: #000;
-	opacity: 1;
+	color: #212121;
+	opacity: 0;
 }
 .header .navigation > ul > li.current > a,
 .header .navigation > ul > li > a:hover,
 .header-sub .navigation > ul > li.current > a,
 .header-sub .navigation > ul > li > a:hover{
-	color: #000;
-	opacity: 1;
+	color: #212121;
+	opacity: 0;
 }
 .header .navigation > ul > li.current > a:hover,
 .header-sub .navigation > ul > li.current > a:hover{
-	color: #000;
+	color: #212121;
 }
 
 /* Transparent Header Initial, Hover & Current Nav Colors */
@@ -1211,8 +1211,8 @@ body,
 
 /* Nav Dark Initial, Hover & Current Colors */
 .header-transparent.nav-dark .navigation > ul > li > a{
-	color: #959faa;
-	opacity: 1;
+	color: #212121;
+	opacity: 0;
 }
 .header-transparent.nav-dark .navigation > ul > li > a:hover{
 	color: #212325;
@@ -1302,7 +1302,7 @@ body,
 	line-height: 1.6;
 	font-weight: 400;
 	font-size: 1.4rem;
-	color: #6d7485;
+	color: #212121;
 	border-left: 3px solid transparent;
 }
 .navigation .mega-sub-menu ul li a:not(.button) span {
