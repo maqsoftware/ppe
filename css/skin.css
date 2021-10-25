@@ -430,7 +430,7 @@ body,
 /* grey light*/
 .bkg-grey-light{
 	background-color: #ffffff;
-	border-color: #000000;
+	border-color: #4e4e4d;
 }
 .bkg-hover-grey-light:hover,
 .bkg-focus-grey-light:focus{
@@ -1635,7 +1635,7 @@ body,
 }
 .header .navigation .navigation-show.nav-icon:hover,
 .mobile .header .navigation .navigation-show.nav-icon:hover{
-	color: transparent;
+	color: #000;
 	opacity: 1;
 }
 
@@ -1659,7 +1659,7 @@ body,
 	border-color: #eee;
 }
 .header-background .navigation .navigation-show.nav-icon:hover{
-	color: transparent;
+	color: #000;
 	border-color: #eee;
 }
 
