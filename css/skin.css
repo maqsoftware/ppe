@@ -1070,13 +1070,12 @@ body,
 /* Initial Logo Styling */
 .header .logo a{
 	display: block !important;
-	position: static;
+	position: absolute;
 	top: 0;
 }
 .header-in .logo a,
 .header-out .logo a{
-	-webkit-transition-duration: 0ms;
-	transition-duration: 0ms;
+
 }
 .header .logo a:first-child{
 	opacity: 1;
