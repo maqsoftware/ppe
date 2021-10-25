@@ -1533,9 +1533,9 @@ body,
 }
 .header-background .v-align-middle > .button:not(.nav-icon),
 .header-background .dropdown > .button:not(.nav-icon){
-	background: #212325;
-	border-color: transparent;
-	color: #fff;
+	background: transparent;
+	border-color: charcoal;
+	color: charcoal;
 }
 .header-background .v-align-middle > .button:not(.nav-icon):hover,
 .header-background .dropdown > .button:not(.nav-icon):hover{
