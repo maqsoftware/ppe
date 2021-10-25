@@ -1070,7 +1070,7 @@ body,
 /* Initial Logo Styling */
 .header .logo a{
 	display: block !important;
-	position: absolute;
+	position: static;
 	top: 0;
 }
 .header-in .logo a,
@@ -1090,28 +1090,28 @@ body,
 /* Transparent Header Show Light Logo */
 .header-transparent .logo a:first-child{
 	opacity: 0;
-	-webkit-transform: scale(0);
-	transform: scale(0);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 .header-transparent .logo a + a{
 	display: block !important;
 	visibility: visible;
-	-webkit-transform: scale(0);
-	transform: scale(0);
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
 
 /* Header Background Logo Swap to Dark Logo - On Scroll! */
 .header-background .logo a:first-child{
 	opacity: 1;
-	-webkit-transform: scale(0);
-	transform: scale(0);
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
 .header-background .logo a + a{
 	display: block !important;
 	opacity: 0;
 	visibility: hidden;
-	-webkit-transform: scale(0);
-	transform: scale(0);
+	-webkit-transform: scale(0.6);
+	transform: scale(0.6);
 }
 
 /* Logo Nav Dark */
