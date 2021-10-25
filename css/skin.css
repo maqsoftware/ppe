@@ -1002,13 +1002,13 @@ body,
 .header .header-inner-top{
 	height: 4rem;
 	background: #f9fbfd;
-	color: #5a646f;
+	color: #000;
 }
 .header .header-inner-top a{
-	color: #333;
+	color: #000;
 }
 .header .header-inner-top-dark{
-	background: #333;
+	background: #000;
 	color: #fff;
 }
 .header .dark-2{
