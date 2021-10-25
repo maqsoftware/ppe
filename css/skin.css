@@ -1075,11 +1075,13 @@ body,
 }
 .header-in .logo a,
 .header-out .logo a{
-
+	-webkit-transition-duration: 0ms;
+	transition-duration: 0ms;
 }
 .header .logo a:first-child{
 	opacity: 1;
-
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
 .header .logo a + a{
 	display: none !important;
@@ -1088,23 +1090,28 @@ body,
 /* Transparent Header Show Light Logo */
 .header-transparent .logo a:first-child{
 	opacity: 0;
-
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 .header-transparent .logo a + a{
 	display: block !important;
 	visibility: visible;
-
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
 
 /* Header Background Logo Swap to Dark Logo - On Scroll! */
 .header-background .logo a:first-child{
 	opacity: 1;
-
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
 .header-background .logo a + a{
 	display: block !important;
 	opacity: 0;
 	visibility: hidden;
-
+	-webkit-transform: scale(0.6);
+	transform: scale(0.6);
 }
 
 /* Logo Nav Dark */
@@ -1112,7 +1119,8 @@ body,
 	display: block !important;
 	top: 0;
 	opacity: 1;
-
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
 .nav-dark .logo a:last-child{
 	display: none !important;
@@ -1122,7 +1130,8 @@ body,
 .mobile .header .logo a:first-child{
 	display: block !important;
 	opacity: 1;
-
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
 @media only screen and (max-width: 960px){
 	.header .logo-inner{
@@ -1138,7 +1147,8 @@ body,
 	.header .logo a:first-child{
 		opacity: 1;
 		top: 0;
-
+		-webkit-transform: scale(1) !important;
+		transform: scale(1) !important;
 	}
 	.header .logo a:last-child{
 		display: none !important;
