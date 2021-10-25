@@ -1177,7 +1177,7 @@ body,
 /* Header & Header Sub Initial & Active Nav Colors */
 .header .navigation > ul > li > a,
 .header-sub .navigation > ul > li > a{
-	color: #959faa;
+	color: #000;
 	opacity: 1;
 }
 .header .navigation > ul > li.current > a,
