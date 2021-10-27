@@ -278,27 +278,15 @@ a[class*="icon-"]:hover{
 	.title-small{
 		font-size: 1.75rem;
 	}
-	}
 	.title-xsmall{
 		font-size: 1.5rem;
-
-	/* Lead */
-	.lead,
-	blockquote.large{
-		font-size: 3rem;
 	}
-
 	/* Countdown */
 	.countdown .unit{
 		font-size: 2rem;
 	}
 	.countdown-2 .unit{
 		font-size: 3rem;
-	}
-
-	/* Special Text Classes */
-	.status-code-title{
-		font-size: 10.306rem;
 	}
 
 	/* Helpers */
