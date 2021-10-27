@@ -98,53 +98,22 @@ h6 a:hover{
 	color: #ba141a;
 }
 h1 {
-	font-size: 3rem;
+	font-size: 3.75rem;
 }
 h2{
-	font-size: 2rem;
+	font-size: 3rem;
 }
 h3 {
-	font-size: 1.75rem;
+	font-size: 2rem;
 }
 h4 {
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 }
 h5{
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 }
 h6{
-	font-size: 1.125rem;
-	font-weight: 700;
-}
-
-/* Widget Titles */
-.footer .widget-title, 
-.footer .widget-title a{
-	font-size: 1rem;
-	font-weight: 400;
-	text-transform: none;
-	color: #515151;
-}
-.footer-light .widget-title, 
-.footer-light .widget-title a{
-	color: #212121;
-}
-.sidebar .widget-title, 
-.sidebar .widget-title a{
-	font-size: 1rem;
-	font-weight: 400;
-	text-transform: none;
-	color: #212121;
-}
-.side-navigation-wrapper .widget-title, 
-.side-navigation-wrapper .widget-title a{
-	font-size: 1rem;
-	color: #212121;
-}
-.overlay-navigation-wrapper .widget-title, 
-.overlay-navigation-wrapper .widget-title a{
-	font-size: 1rem;
-	color: #515151;
+	font-size: 1.25rem;
 }
 
 /* Title Classes */
