@@ -181,12 +181,6 @@ blockquote.large{
 	font-size: 3rem;
 }
 
-/* Special Text Classes */
-.status-code-title{
-	font-size: 13.707rem;
-	line-height: 1;
-}
-
 /* Weight Classes */
 .weight-light{
 	font-weight: 300;
