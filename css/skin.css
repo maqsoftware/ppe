@@ -205,13 +205,7 @@ p a,
 .box a:not(.button){
 	color: #ba141a;
 }
-.sidebar .widget :not(.widget-title) a:not(.button),
-.shop .product-summary :not(.widget-title) a:not(.button){
-	color: #959faa;
-}
-.shop .cart-overview a:not(.button){
-	color: #6d7485;
-}
+
 a,
 p a,
 .box a:not(.button):hover,
@@ -273,22 +267,20 @@ a[class*="icon-"]:hover{
 		font-size: 1.125rem;
 	}
 	.title-xlarge{
-		font-size: 4.5rem;
-	}
-	.title-large{
 		font-size: 3.75rem;
 	}
-	.title-medium{
+	.title-large{
 		font-size: 3rem;
 	}
-	.title-small{
+	.title-medium{
 		font-size: 2rem;
 	}
-	.tms-caption.title-xlarge,
-	.tmp-content .title-xlarge{
-		font-size: 5.826rem;
-		line-height: 5.826rem;
+	.title-small{
+		font-size: 1.75rem;
 	}
+	}
+	.title-xsmall{
+		font-size: 1.5rem;
 
 	/* Lead */
 	.lead,
