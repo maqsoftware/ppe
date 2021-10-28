@@ -1147,14 +1147,14 @@ body,
 .header .navigation > ul > li > a,
 .header-sub .navigation > ul > li > a{
 	color: #212121;
-	opacity: 0;
+	opacity: 1;
 }
 .header .navigation > ul > li.current > a,
 .header .navigation > ul > li > a:hover,
 .header-sub .navigation > ul > li.current > a,
 .header-sub .navigation > ul > li > a:hover{
 	color: #212121;
-	opacity: 0;
+	opacity: 1;
 }
 .header .navigation > ul > li.current > a:hover,
 .header-sub .navigation > ul > li.current > a:hover{
