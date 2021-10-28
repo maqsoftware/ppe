@@ -166,6 +166,28 @@ h6{
 	font-weight: 700;
 }
 
+/* Emphasis Classes */
+.text-xlarge-emphasis{
+	font-size: 1.75rem;
+	color: #ba141a;
+	font-weight: 700;
+}
+.text-large-emphasis{
+	font-size: 1.5rem;
+	color: #ba141a;
+	font-weight: 700;
+}
+.text-medium-emphasis{
+	font-size: 1.25rem;
+	color: #ba141a;
+	font-weight: 700;
+}
+.text-small-emphasis{
+	font-size: 1.125rem;
+	color: #ba141a;
+	font-weight: 700;
+}
+
 /*Call to Action Classes */
 .CTA-large{
 	font-size: 5.5rem;
