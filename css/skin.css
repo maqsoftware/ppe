@@ -501,7 +501,7 @@ body,
 	border-color: #21282e;
 }
 .border-charcoal{
-	color: #1b2126;
+	color: #212121;
 }
 .border-hover-charcoal:hover,
 .border-focus-charcoal:focus{
@@ -587,8 +587,8 @@ body,
 
 /* blue lightb */
 .bkg-blue-light{
-	background-color: #4081f2;
-	border-color: #4081f2;
+	background-color: #BCDAF0;
+	border-color: #BCDAF0;
 }
 .bkg-hover-blue-light:hover,
 .bkg-focus-blue-light:focus{
