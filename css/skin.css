@@ -409,11 +409,8 @@ body,
 .border-grey-light{
 	border-color: #ecedf2;
 }
-}
 .border-grey-light-custom{
-	border-bottom: #ecedf2;
-	border-left: #ecedf2;
-	border-right: #ecedf2;
+	border-bottom-color: #ecedf2;
 }
 .border-hover-grey-light:hover,
 .border-focus-grey-light:focus{
