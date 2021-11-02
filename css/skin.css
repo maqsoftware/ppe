@@ -1354,7 +1354,7 @@ body,
 .navigation .mega-sub-menu:not(.custom-content) ul li:hover > a,
 .navigation .dropdown-list:not(.custom-content) li:hover a{
 	background-color: transparent;
-	border-left: 3px solid #7693f4;
+	border-left: 3px solid #ba141a;
 }
 .navigation .sub-menu li > a:not(.button):hover,
 .navigation .mega-sub-menu ul li > a:not(.button):hover,
