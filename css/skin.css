@@ -710,7 +710,7 @@ body,
 
 /* Gradients */
 .bkg-gradient-heavy-rain{
-	background-image: linear-gradient(125deg, #cfd9df 0%, #e2ebf0 100%) !important;
+	background-image: linear-gradient(75deg, #a4b7c4 0%, #e7eef1 100%) !important;
 }
 .bkg-gradient-cold-ocean{
 	background-image: linear-gradient(0deg, #47495e 0%, #181320 100%) !important;
