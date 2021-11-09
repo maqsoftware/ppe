@@ -187,7 +187,12 @@ h6{
 	color: #ba141a;
 	font-weight: 700;
 }
-
+.lead-emphasis{
+	font-size: 1.8rem;
+	line-height: 1.5;
+	color: #ba141a;
+	font-weight: 700;
+}
 /*Call to Action Classes */
 .CTA-large{
 	font-size: 5.5rem;
