@@ -3758,8 +3758,8 @@ textarea.required-field{
 	font-size: 1rem;
 }
 .sidebar .widget li{
-	padding-top: 0rem;
-	padding-bottom: 0rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 .sidebar .widget .list-group li{
 	padding-top: 1rem;
