@@ -4263,8 +4263,8 @@ blockquote.avatar.xlarge span img  {
 }
 @media only screen and (min-width: 768px){
 	.stats-3 .grid-item{
-		border-color: #ecedf2;
-		border-right-style: solid;
+		border-color: none;
+		border-right-style: none;
 	}
 }
 .stats-3 .mega-stat .counter{
