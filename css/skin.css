@@ -4057,7 +4057,30 @@ hr,
 /*------------------------------------------------------------------
 [27. Component Styling]
 */
+.hexdiv {
+	position: relative;
+	height: 1150px;
+	width: 1015px;
+	transform: scale(0.8);
+}
 
+.hex {
+
+	position: absolute;
+	width: 364px;
+	height: 424px;
+	transform: rotate(-11deg);
+	background-image: url("../hex.svg");
+	background-repeat: no-repeat;
+	
+}
+
+.hextext {
+	position: relative;
+	top: 50%;
+	left: 40%;
+	transform: rotate(11deg);
+}
 /* Testimonial Slider */
 .testimonial-slider{
 	height: 14rem;
