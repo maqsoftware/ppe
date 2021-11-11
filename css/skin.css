@@ -4968,4 +4968,16 @@ only screen and (				min-resolution: 2dppx) {
 	.box.box-3{
 		background-image: url(../images/generic/box-3@2x.jpg);
 	}
+
+	.hexdiv {
+		display: block;
+	}
+
+	.hex {
+
+		position: relative;
+		top: 60px;
+		left: 200px;
+		
+	}
 }
