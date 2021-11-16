@@ -792,6 +792,10 @@ body,
 */
 
 /* Unique Template Padding & Margins */
+.text-box{
+	padding-left: 6rem;
+	padding-right: 6rem;
+}
 .content{
 	-webkit-transition-duration: 500ms;
 			transition-duration: 500ms;
