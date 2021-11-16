@@ -795,7 +795,7 @@ body,
 .text-box{
 	padding-left: 6rem;
 	padding-right: 6rem;
-	padding-top: 6rem;
+	padding-bottom: 6rem;
 }
 .content{
 	-webkit-transition-duration: 500ms;
