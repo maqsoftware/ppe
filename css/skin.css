@@ -802,6 +802,10 @@ body,
 	padding-left: 6rem;
 	padding-right: 6rem;
 }
+.case-study-title{
+	padding-left: 1rem;
+	padding-top:2rem;
+}
 .content{
 	-webkit-transition-duration: 500ms;
 			transition-duration: 500ms;
