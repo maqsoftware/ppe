@@ -640,6 +640,12 @@ body,
 .color-hover-blue:hover{
 	color: #4081f2;
 }
+.case-study-summary-ruler {
+    background-color: #3F6986;
+    height: 5pt;
+    width: 70%;
+    margin-left: 0px;
+}
 
 /* yellow */
 .bkg-yellow{
