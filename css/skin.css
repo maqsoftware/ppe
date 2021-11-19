@@ -262,7 +262,7 @@ p a,
 .header .header-inner-top-dark a:hover,
 .dropdown-list:not(.custom-content) li a.active,
 .dropdown-list:not(.custom-content) li a:hover{
-	color: #ba141a;
+	color: #ffffff;
 }
 a[class*="icon-"]:hover{
 	text-decoration: none;
