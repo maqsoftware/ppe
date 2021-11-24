@@ -1,0 +1,6 @@
+﻿.CaseStudyLoading{
+    content: url(/img/loading.GIF); 
+    width: auto !important;
+    margin-left: auto;
+    margin-right: auto
+}
