@@ -19,14 +19,15 @@ function renderCaseStudy() {
             sAnchorCaseStudy = entry1.getElementsByTagName('link')[2].getAttribute('href');
             imgSource = $('<div/>').html(entry1.getElementsByTagName('content')[0].innerHTML).text();
             imgSource = parser.parseFromString(imgSource, "text/html");
-            rawPublishedDate = oCaseStudyData.getElementsByTagName('published')[0].childNodes[0].nodeValue.toLowerCase().split("t")[0];
+            rawPublishedDate = entry1.getElementsByTagName('published')[0].childNodes[0].nodeValue.toLowerCase().split("t")[0];
             PublishedDate = new Date(rawPublishedDate);
             PublishedDateDay = PublishedDate.getDate();
             PublishedMonth = PublishedDate.toLocaleString('en-us', { month: 'long' });
             PublishedYear = PublishedDate.getFullYear();
-            aCategoryFilters = [];            
+            aCategoryFilters = [];
+            var sTerm = ""
             aCategoryHTML = $.map(entry1.getElementsByTagName('category'), function (el) {
-                var sTerm = el.getAttribute("term");
+                sTerm = el.getAttribute("term");
                 if (sTerm === "Blog") {
                     return "";
                 }
@@ -57,7 +58,7 @@ function renderCaseStudy() {
 														+"</div>"
 														+ "<h2 class='post-title'><a href='" + sAnchorCaseStudy + "'>" + sCaseStudyTitle + "</a></h2>"
 														+ "<div class='post-info'>"
-															+ "<span class='post-category'><a href='#'>" + sCategoryFilter + "</a></span> | <span class='post-date'>" + PublishedMonth + " " + PublishedDateDay + ", " + PublishedYear + "</span>"
+															+ "<span class='post-category'><a href='#'>" + sTerm + "</a></span> | <span class='post-date'>" + PublishedMonth + " " + PublishedDateDay + ", " + PublishedYear + "</span>"
 														+"</div>"
 														+ "<a href='" + sAnchorCaseStudy + "' class='read-more'>Read More →</a>"
 														
@@ -100,7 +101,7 @@ function getBlogOnComplete() {
     // We need to destroy existing initialized isotope
     // to re-initialize it in containerGridMasonry()
     //$('.container-grid').isotope('destroy');
-   containerGridMasonry();
+   //containerGridMasonry();
 }
 
 function getBloggerData(blogUrl, successCallBack, completeCallBack) {
