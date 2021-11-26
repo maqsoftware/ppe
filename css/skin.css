@@ -2816,14 +2816,15 @@ h3.project-title{
 }
 .pagination-3 a{
 	width: 4rem;
-	height: 4rem;
-	padding: 0;
-	line-height: 4rem;
-	font-size: 1.2rem;
-	font-weight: 400;
-	color: #6d7485;
-	border-color: transparent;
-	border-radius: 0;
+    height: 4rem;
+    padding: 0;
+    line-height: 4rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #6d7485;
+    border: 1px solid #ecedf2;
+    border-radius: 0.3rem;
+    margin: 5.3px !important;
 }
 .pagination-3.portfolio a{
 	width: auto;
@@ -2858,7 +2859,18 @@ h3.project-title{
 .pagination-3 a span{
 	margin: 0;
 }
-
+.pagination-button {
+border: 3px solid red;
+}
+.number-button {
+}
+.number-button :hover {
+cursor: default !important;
+}
+/* Button Selected */
+.selected-button {
+border-color: gray !important;
+}
 /*------------------------------------------------------------------
 [19. Fullscreen Pages]
 */
@@ -5014,4 +5026,7 @@ only screen and (				min-resolution: 2dppx) {
 		left: 200px;
 		
 	}
+}
+.hidden{
+    display: none;
 }
