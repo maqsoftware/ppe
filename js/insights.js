@@ -4,7 +4,7 @@ var oNewsPager = {
     template:
       '<div class="grid-item"> <article class="post"> <div class="post-content with-background"> <div class="post-media"> <div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="700" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="0.9"><a class="overlay-link" href="@sAnchorCaseStudy"><img src="@sImageLink" alt=""><span class="overlay-info"><span><span> Read Full Article</span></span></span></a></div> </div> <h2 class="post-title"><a href="@sAnchorCaseStudy">@sCaseStudyTitle</a></h2> <div class="post-info"><span class="post-category"><a href="#">@sTerm </a></span> | <span class="post-date">@PublishedMonth @PublishedDateDay @PublishedYear</span></div> <a href="@sAnchorCaseStudy" class="read-more">Read More →</a> </div> </article> </div>',
     pageIndex: 0,
-    pagesize: 3,
+    pagesize: 6,
   },
   id,
   highlightid,
@@ -24,7 +24,7 @@ var oNewsPager = {
   ],
   iCount,
   iTotal = oItalicBookName.length,
-  iTotalHighlight = 3,
+  iTotalHighlight = 6,
   oNewsHighlightTitle = [iTotalHighlight],
   oHighlightNewsID = [iTotalHighlight],
   selectedButton = " ",
