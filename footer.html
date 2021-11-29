@@ -23,38 +23,35 @@
     <!-- Info End -->
                 <!-- Contact Form -->
                 <div class="contact-form-container">
-                    <form class="contact-form" action="php/send-email.php" method="post" novalidate>
+                    <form class="contact-form" onsubmit="return false">
                         <div class="row">
                             <div class="column width-6">
                                 <div class="field-wrapper">
-                                    <input type="text" name="fname" class="form-fname form-element rounded medium" placeholder="First Name*" tabindex="1" required>
+                                    <input type="text" name="First Name" class="form-fname form-element rounded medium" placeholder="First Name*" tabindex="1" required>
                                 </div>
                             </div>
                             <div class="column width-6">
                                 <div class="field-wrapper">
-                                    <input type="text" name="lname" class="form-lname form-element rounded medium" placeholder="Last Name" tabindex="2">
+                                    <input type="text" name="Last Name" class="form-lname form-element rounded medium" placeholder="Last Name" tabindex="2">
                                 </div>
                             </div>
                             <div class="column width-6">
                                 <div class="field-wrapper">
-                                    <input type="email" name="email" class="form-email form-element rounded medium" placeholder="Email address*" tabindex="3" required>
+                                    <input type="email" name="Email" class="form-email form-element rounded medium" placeholder="Email address*" tabindex="3" required>
                                 </div>
                             </div>
                             <div class="column width-6">
                                 <div class="field-wrapper">
-                                    <input type="text" name="website" class="form-wesite form-element rounded medium" placeholder="Website" tabindex="4">
+                                    <input type="text" name="Website" class="form-wesite form-element rounded medium" placeholder="Website" tabindex="4">
                                 </div>
-                            </div>
-                            <div class="column width-6">
-                                <input type="text" name="honeypot" class="form-honeypot form-element rounded medium">
                             </div>
                         </div>
                         <div class="row">
                             <div class="column width-12">
                                 <div class="field-wrapper">
-                                    <textarea name="message" class="form-message form-element rounded medium" placeholder="Message*" tabindex="7" required></textarea>
+                                    <textarea name="Message" class="form-message form-element rounded medium" placeholder="Message*" tabindex="7" required></textarea>
                                 </div>
-                                <input type="submit" value="Send Email" class="form-submit button rounded medium bkg-theme bkg-hover-theme color-white color-hover-white">
+                                <input type="button" onclick="Sendmail()" value="Send Email" class="form-submit button rounded medium bkg-theme bkg-hover-theme color-white color-hover-white">
                             </div>
                         </div>
                     </form>
@@ -113,7 +110,7 @@
                             <h3 class="text-medium mb-30">About Us</h3>
                             <ul>
                                 <li><a href="/who-we-are">Who We Are</a></li>
-                                <li><a href="/News">News</a></li>
+                                <li><a href="/news">News</a></li>
                                 <li><a href="/about/Social-Impact-Report.pdf">Social Impact</a></li>
                                 <li><a href="/sustainability">Sustainability</a></li>
                                 <li><a href="/contact">Contact</a></li>
@@ -147,7 +144,7 @@
                     <p class="copyright pull-left clear-float-on-mobile">&copy; MAQSoftware. All Rights Reserved.</p> <a href="#" class="scroll-to-top pull-right clear-on-mobile" data-no-hide>Back Top</a>
             </div>
             <div class="column width-2">
-                <a href="https://maqsoftware.com/privacystatement">Privacy Statement</a>
+                <a href="/privacystatement">Privacy Statement</a>
             </div>
             <div class="column width-2">
                 <a href="https://maqsoftware.com/termsofservice">Terms of Service</a>
@@ -169,3 +166,4 @@
             </div>
         </div>
     </div>
+    <script src="/js/timber.master.min.js"></script>
