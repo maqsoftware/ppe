@@ -592,3 +592,11 @@
     text-decoration: underline;
     color: #515151;
 }
+
+.post-title{
+    height: 120px;
+}
+
+.post-info{
+    height: 50px;
+}
