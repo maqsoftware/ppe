@@ -600,3 +600,7 @@
 .post-info{
     height: 50px;
 }
+
+.SemiBold {
+    font-weight: 500 !important;
+}
