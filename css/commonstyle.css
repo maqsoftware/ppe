@@ -600,3 +600,17 @@
 .post-info{
     height: 50px;
 }
+
+.SemiBold {
+    font-weight: 500 !important;
+}
+.CircleBullets {
+    list-style-type: disc;
+    padding-left: 35px;
+    color: Black;
+    margin: 0px;
+}
+
+.CircleBullets a {
+    text-decoration: underline !important;
+}
