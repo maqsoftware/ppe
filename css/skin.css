@@ -138,6 +138,14 @@ h6 {
   line-height: 1.5;
 }
 
+.title-xssmall {
+  font-size: 1.4rem;
+  line-height: 0.3;
+}
+.title-xxssmall {
+  font-size: 1.2rem;
+  line-height: 1;
+}
 /* Text Classes */
 .text-xlarge {
   font-size: 1.75rem;
