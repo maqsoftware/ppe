@@ -70,6 +70,8 @@ textarea,
 .font-alt-1,
 .header .navigation > ul > li > a,
 .header .navigation > ul > li > div > a, /* #MOD */
+.header .navigation > ul > li,
+.header .navigation > ul > li > div, /* #MOD */
 .side-navigation > ul > li > a,
 .overlay-navigation > ul > li > a,
 .grid-filter-menu a,
@@ -1254,7 +1256,13 @@ body,
   font-weight: 500;
   letter-spacing: 0;
 }
-
+.header .navigation > ul > li,
+.header-sub .navigation > ul > li {
+  font-size: 1.4rem;
+  text-transform: none;
+  font-weight: 500;
+  letter-spacing: 0;
+}
 /* Header & Header Sub Initial & Active Nav Colors */
 .header .navigation > ul > li > a,
 .header-sub .navigation > ul > li > a {
@@ -1276,16 +1284,25 @@ body,
 /* Transparent Header Initial, Hover & Current Nav Colors */
 @media only screen and (min-width: 960px) {
   .header-transparent .navigation > ul > li > a:not(.button) {
-    color: #fff;
-    opacity: 0.6;
+    color: #515151;
+    opacity: 1;
   }
   .header-transparent .navigation > ul > li > a:not(.button):hover {
-    color: #fff;
+    color: #212121;
+    opacity: 1;
+  }
+  .header-transparent .navigation > ul > li {
+    color: #515151;
+    opacity: 1;
+  }
+  .header-transparent .navigation > ul > li:hover {
+    color: #212121;
     opacity: 1;
   }
   .header-transparent .navigation > ul > li.current > a:not(.button),
   .header-transparent .navigation > ul > li.current > a:not(.button):hover {
-    color: #fff;
+    color: #212121;
+    font-weight: 700;
     opacity: 1;
   }
 }
@@ -1306,17 +1323,17 @@ body,
 
 /* Header Background Initial, Hover & Current Nav Colors - On Scroll! */
 .header-background .navigation > ul > li > a:not(.button) {
-  color: #959faa;
+  color: #515151;
 }
 .header-background .navigation > ul > li.current > a:not(.button) {
-  color: #212325;
+  color: #212121;
   border-bottom: none;
 }
 .header-background .navigation > ul > li.current > a:not(.button):hover {
-  color: #212325;
+  color: #212121;
 }
 .header-background .navigation > ul > li > a:not(.button):hover {
-  color: #212325;
+  color: #212121;
   opacity: 1;
 }
 
