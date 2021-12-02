@@ -1276,16 +1276,17 @@ body,
 /* Transparent Header Initial, Hover & Current Nav Colors */
 @media only screen and (min-width: 960px) {
   .header-transparent .navigation > ul > li > a:not(.button) {
-    color: #fff;
-    opacity: 0.6;
+    color: #212121;
+    opacity: 1;
   }
   .header-transparent .navigation > ul > li > a:not(.button):hover {
-    color: #fff;
+    color: #212121;
     opacity: 1;
   }
   .header-transparent .navigation > ul > li.current > a:not(.button),
   .header-transparent .navigation > ul > li.current > a:not(.button):hover {
-    color: #fff;
+    color: #212121;
+    font-weight: 700;
     opacity: 1;
   }
 }
