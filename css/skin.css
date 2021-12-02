@@ -35,6 +35,7 @@ Copyright: ThemeMountain
 27. E-Commerce
 28. Component Styling
 29. Resolution Media Queries
+30. Custom MAQ Containers
 
 -------------------------------------------------------------------*/
 
@@ -628,13 +629,13 @@ body,
 
 /* blue */
 .bkg-blue {
-  background-color: #0069ff;
-  border-color: #0069ff;
+  background-color: #323d4f;
+  border-color: #323d4f;
 }
 .bkg-hover-blue:hover,
 .bkg-focus-blue:focus {
-  background-color: #4081f2;
-  border-color: #4081f2;
+  background-color: #323d4f;
+  border-color: #323d4f;
 }
 .border-blue {
   border-color: #0069ff;
@@ -5163,4 +5164,50 @@ table.table,
 .pull-center {
   align-items: center;
   margin-left: 45%;
+}
+
+/*------------------------------------------------------------------
+[30. Custom MAQ Containers]
+*/
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
