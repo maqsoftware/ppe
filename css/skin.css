@@ -629,13 +629,13 @@ body,
 
 /* blue */
 .bkg-blue {
-  background-color: #0069ff;
-  border-color: #0069ff;
+  background-color: #323d4f;
+  border-color: #323d4f;
 }
 .bkg-hover-blue:hover,
 .bkg-focus-blue:focus {
-  background-color: #4081f2;
-  border-color: #4081f2;
+  background-color: #323d4f;
+  border-color: #323d4f;
 }
 .border-blue {
   border-color: #0069ff;
