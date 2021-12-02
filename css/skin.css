@@ -1810,12 +1810,22 @@ body,
 /* Side Main Nav Initial Colors & Padding */
 .side-navigation > ul > li > a {
   padding: 0.6rem 4rem;
-  font-size: 1.8rem;
-  line-height: 1.2;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: 700;
+  color: #212121;
+  position: relative;
+}
+.side-navigation > ul > li > ul > li > a {
+  padding: 0.6rem 4rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
   letter-spacing: 0;
   text-transform: none;
   font-weight: 400;
-  color: #959faa;
+  color: #212121;
   position: relative;
 }
 .side-navigation ul li.current > a {
