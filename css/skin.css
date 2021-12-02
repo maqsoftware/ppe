@@ -1283,6 +1283,14 @@ body,
     color: #212121;
     opacity: 1;
   }
+  .header-transparent .navigation > ul > li {
+    color: #515151;
+    opacity: 1;
+  }
+  .header-transparent .navigation > ul > li:hover {
+    color: #212121;
+    opacity: 1;
+  }
   .header-transparent .navigation > ul > li.current > a:not(.button),
   .header-transparent .navigation > ul > li.current > a:not(.button):hover {
     color: #212121;
