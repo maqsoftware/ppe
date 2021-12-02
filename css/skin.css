@@ -74,6 +74,7 @@ textarea,
 .header .navigation > ul > li > div, /* #MOD */
 .side-navigation > ul > li > a,
 .overlay-navigation > ul > li > a,
+.overlay-navigation > ul > li,
 .grid-filter-menu a,
 .dropdown a,
 [class*="stats-"] .counter {
