@@ -70,6 +70,8 @@ textarea,
 .font-alt-1,
 .header .navigation > ul > li > a,
 .header .navigation > ul > li > div > a, /* #MOD */
+.header .navigation > ul > li,
+.header .navigation > ul > li > div, /* #MOD */
 .side-navigation > ul > li > a,
 .overlay-navigation > ul > li > a,
 .grid-filter-menu a,
