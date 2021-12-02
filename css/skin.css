@@ -1276,7 +1276,7 @@ body,
 /* Transparent Header Initial, Hover & Current Nav Colors */
 @media only screen and (min-width: 960px) {
   .header-transparent .navigation > ul > li > a:not(.button) {
-    color: #212121;
+    color: #515151;
     opacity: 1;
   }
   .header-transparent .navigation > ul > li > a:not(.button):hover {
@@ -1307,17 +1307,17 @@ body,
 
 /* Header Background Initial, Hover & Current Nav Colors - On Scroll! */
 .header-background .navigation > ul > li > a:not(.button) {
-  color: #959faa;
+  color: #515151;
 }
 .header-background .navigation > ul > li.current > a:not(.button) {
-  color: #212325;
+  color: #212121;
   border-bottom: none;
 }
 .header-background .navigation > ul > li.current > a:not(.button):hover {
-  color: #212325;
+  color: #212121;
 }
 .header-background .navigation > ul > li > a:not(.button):hover {
-  color: #212325;
+  color: #212121;
   opacity: 1;
 }
 
