@@ -211,7 +211,7 @@ h6 {
   font-family: "Inter", "Helvetica Neue", sans-serif;
 }
 .CTA-small {
-  font-size: 2rem;
+  font-size: 3rem;
   line-height: 1.3;
   font-weight: 400;
   color: #515151;
@@ -3786,7 +3786,7 @@ textarea.required-field {
 }
 .footer-top a:not(.button) {
   font-size: 1.2rem;
-  color: #959faa;
+  color: #515151;
 }
 .footer-bottom a {
   font-size: 1.2rem;
